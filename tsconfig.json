@@ -1,13 +1,11 @@
 {
   "compilerOptions": {
-    "outDir": "./src",
-    "rootDir": "./src",
-    "module": "commonjs",
-    "target": "es5",
-    "lib": ["es6"],
-    "esModuleInterop": true,
     "declaration": true,
-    "sourceMap": true
+    "outDir": "./",
+    "target": "es5",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": true
   },
   "include": ["src"]
 }
